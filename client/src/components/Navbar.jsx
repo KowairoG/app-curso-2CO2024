@@ -17,6 +17,9 @@ function Navbar() {
                         <li className="bg-indigo-500 px-4 rounded-sm">
                             <Link to="/add-task">Add Task</Link>
                         </li>
+                        <li className="bg-indigo-500 px-4 rounded-sm">
+                            <Link to="/VerificationLogs">Verified Users</Link>
+                        </li>
                         <li>
                             <Link to="/" onClick={() => {
                                 logout();

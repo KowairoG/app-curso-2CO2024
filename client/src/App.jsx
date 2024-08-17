@@ -9,7 +9,7 @@ import ProfilePage from "./pages/Profile";
 import ProtectedRoute from "./pages/ProtectedRoute";
 import { TaskProvider } from "./context/TasksContext";
 import Navbar from "./components/Navbar";
-
+import VerificationLogPage from "./pages/VerificationLogPage";
 function App() {
   return (
     <AuthProvider>
@@ -26,6 +26,7 @@ function App() {
               <Route path="/add-task" element={<TaskFormPage />}></Route>
               <Route path="/tasks/:id" element={<TaskFormPage />}></Route>
               <Route path="/profile" element={<ProfilePage />}></Route>
+              <Route path="/VerificationLogs" element={<VerificationLogPage />}></Route>
             </Route>
           </Routes>
           </main>
